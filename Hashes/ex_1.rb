@@ -4,4 +4,5 @@ family = {  uncles: ["bob", "joe", "steve"],
             aunts: ["mary","sally","susan"]
           }
 imm_family = family.select {|k,v| k==:sisters|| k==:brothers}
+
 p imm_family.values.flatten
