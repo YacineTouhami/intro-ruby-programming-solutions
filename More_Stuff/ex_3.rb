@@ -1,0 +1,1 @@
+# Exception is a way to handle errors in our programs to let them continue executing

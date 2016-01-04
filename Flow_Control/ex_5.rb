@@ -1,5 +1,5 @@
 def eval_num(number)
-  case 
+  case number
   when number < 0
     puts "You can't enter a negative number! "  
   when number <= 50 
