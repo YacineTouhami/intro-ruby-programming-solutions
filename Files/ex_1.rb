@@ -8,6 +8,7 @@ original = File.new("original_file.txt","w+")
 File.open(original,'a') do |file|
   file.puts simple
 end 
+
 puts "The content of original_file.txt is:"
 puts File.read("original_file.txt")
 
